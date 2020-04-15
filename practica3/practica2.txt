@@ -1,0 +1,25 @@
+
+2a)
+Ahora en vez de ignorar los epsacios en blanco los imprime.
+
+b) Deja de reconocer los patrones, simplemente imprime el texto sin hacer ninguna clase de análisis.
+
+c) Se guarda la cadena que coincidió con el patrón
+
+d) Analiza el texto introducido e imprime "Encontré un número" o "Encontré una palabra" según coincida con el patrón
+
+e) No los reconoce y simplemente los imprime.
+
+
+
+5
+a) No son reconocidas al inicio, se les reconoce como identificadores.
+b) No, el programa las reconoce como identificadores.
+c) Ahora puede identificar los identificadores correctamente
+d) Sí, parece que hace un "match" con la expresión más arriba en el archivo.
+
+6
+a) Se imprime un error con un contador cada vez que se encuentra una expresión no 
+reconocida
+b) Si se pone sobre el espacio no ignora los espacios sino que los reconoce
+como errores.
