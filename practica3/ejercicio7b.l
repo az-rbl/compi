@@ -27,8 +27,19 @@ int main(){
     noPalabras =0;
     noLineas =0;
     noCaracteres=0;
+    
+    char archivoEntrada[200]="";
+    printf("Por favor escribe el archivo: \n");
+    scanf("%s", archivoEntrada);
+    printf("%s", archivoEntrada);
 
-    yyin = fopen("programa.c", "r");
+    yyin = fopen(archivoEntrada, "r");
+     if (yyin == NULL){
+        perror("fopenff");
+        exit(1);
+    }
+
+
     yylex();
     printf("Número de lineas: %d \n", noLineas);
     printf("Número de palabras: %d \n", noPalabras);

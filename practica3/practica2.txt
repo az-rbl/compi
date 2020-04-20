@@ -23,3 +23,12 @@ a) Se imprime un error con un contador cada vez que se encuentra una expresión 
 reconocida
 b) Si se pone sobre el espacio no ignora los espacios sino que los reconoce
 como errores.
+
+7
+a) Este ejercicio fué fácil de hacer usando "fuerza bruta". No se si haya un mejor método. Pero este me pareció adecuado.
+
+b) En este ejercicio se inicializan variables en la priemra sección que después se usarán en la tercera sección.
+
+c) En este ejercicio la mayor dificultad fue hacer que se abriera correctamente el archivo.
+
+d) Este es el ejercicio más difícil: Para resolverlo se tuvieron que usar estados y expresiones regulares más complejas
