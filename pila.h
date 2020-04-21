@@ -15,7 +15,7 @@ Pila* pila_nueva (void);
  * Permite introducir un elemento a una pila.
  */
 
-void pila_sete (Pila* pila, void * elemento);
+void pila_mete (Pila* pila, void * elemento);
 
 /**
  * Permite sacar el primer elemento del a pila
